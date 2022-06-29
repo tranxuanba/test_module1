@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [6, 7, 8, 9, 10, 8];
+    function findAvg(score) {
+        let sum = 0;
+        for( let i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        let avrage = sum/array.length;
+        document.write(avrage);
+    }
+
+    findAvg();
+</script>
+</body>
+</html>

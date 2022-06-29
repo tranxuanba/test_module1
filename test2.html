@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let aar = [];
+  let n = +prompt("nhap vao so phan tu trong mang");
+  for (let i = 0; i < n; i++) {
+      aar[i] = +prompt("nhap vao phan tu co chi so: " + i);
+  }
+  function insertNumberToArray(arr, x, index){
+    if (index < 0 || index > arr.length) {
+        return arr;
+    }else {
+        arr.push(x);
+    }
+    return aar;
+  }
+  let index = +prompt("nhap vao index")
+  let x2 = +prompt("nhap vao so x")
+  // insertNumberToArray(arr, x, index);
+  document.write(aar)
+</script>
+</body>
+</html>
